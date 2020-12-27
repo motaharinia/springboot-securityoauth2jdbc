@@ -1,4 +1,4 @@
-package com.motaharinia.oauthsecurityconfig.custom;
+package com.motaharinia.config.oauth2.custom;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AbstractAuthenticationTargetUrlRequestHandler;

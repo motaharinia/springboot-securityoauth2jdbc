@@ -1,4 +1,4 @@
-package com.motaharinia.oauthsecurityconfig.custom;
+package com.motaharinia.config.oauth2.custom;
 
 
 import com.motaharinia.business.service.captchacode.CaptchCodeTypeEnum;

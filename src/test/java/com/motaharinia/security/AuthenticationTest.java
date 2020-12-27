@@ -61,7 +61,7 @@ public class AuthenticationTest {
     @Order(1)
     public void authenticationSuccessTest() {
         try {
-            String uri = "http://localhost:" + port + "/oauth/token";
+            String uri = "http://localhost:" + port + "/oauth2/token";
 
             //درخواست بیسیک قبل از لاگین طبق استادندارد oauth2 در هدر
             HttpHeaders headers = new HttpHeaders();
@@ -96,7 +96,7 @@ public class AuthenticationTest {
     @Order(2)
     public void authenticationFailedTest() {
         try {
-            String uri = "http://localhost:" + port + "/oauth/token";
+            String uri = "http://localhost:" + port + "/oauth2/token";
 
             //درخواست بیسیک قبل از لاگین طبق استادندارد oauth2 در هدر
             HttpHeaders headers = new HttpHeaders();
@@ -133,7 +133,7 @@ public class AuthenticationTest {
     @Order(3)
     public void authenticationFailureCountTest() {
         try {
-            String uri = "http://localhost:" + port + "/oauth/token";
+            String uri = "http://localhost:" + port + "/oauth2/token";
 
             //درخواست بیسیک قبل از لاگین طبق استادندارد oauth2 در هدر
             HttpHeaders headers = new HttpHeaders();
@@ -173,7 +173,7 @@ public class AuthenticationTest {
     @Order(4)
     public void authenticationFailureCountCaptchaImageTest() {
         try {
-            String uri = "http://localhost:" + port + "/oauth/token";
+            String uri = "http://localhost:" + port + "/oauth2/token";
 
             //درخواست بیسیک قبل از لاگین طبق استادندارد oauth2 در هدر
             HttpHeaders headers = new HttpHeaders();
@@ -227,7 +227,7 @@ public class AuthenticationTest {
     @Order(5)
     public void authenticationFailureCountCaptchaTokenTest() {
         try {
-            String uri = "http://localhost:" + port + "/oauth/token";
+            String uri = "http://localhost:" + port + "/oauth2/token";
 
             //درخواست بیسیک قبل از لاگین طبق استادندارد oauth2 در هدر
             HttpHeaders headers = new HttpHeaders();

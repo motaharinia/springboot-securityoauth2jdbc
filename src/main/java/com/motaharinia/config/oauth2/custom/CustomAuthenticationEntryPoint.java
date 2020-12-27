@@ -1,4 +1,4 @@
-package com.motaharinia.oauthsecurityconfig.custom;
+package com.motaharinia.config.oauth2.custom;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

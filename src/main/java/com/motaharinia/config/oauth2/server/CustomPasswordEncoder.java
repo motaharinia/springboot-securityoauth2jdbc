@@ -1,4 +1,4 @@
-package com.motaharinia.oauthsecurityconfig.server;
+package com.motaharinia.config.oauth2.server;
 
 import com.motaharinia.business.service.security.PasswordEncoderGenerator;
 import org.springframework.security.crypto.password.PasswordEncoder;

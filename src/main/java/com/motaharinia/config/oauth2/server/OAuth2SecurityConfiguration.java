@@ -1,4 +1,4 @@
-package com.motaharinia.oauthsecurityconfig.server;
+package com.motaharinia.config.oauth2.server;
 
 import com.motaharinia.business.service.security.UserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +26,7 @@ import java.io.IOException;
 @Configuration
 @EnableWebSecurity(debug = true)
 public class OAuth2SecurityConfiguration extends WebSecurityConfigurerAdapter {
-    private String tokenUrl = "/oauth/token";
+    private String tokenUrl = "/oauth2/token";
 
     // It is the interface responsible to be the bridge between your data source and Spring Security:
     @Autowired

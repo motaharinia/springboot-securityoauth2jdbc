@@ -1,4 +1,4 @@
-package com.motaharinia.oauthsecurityconfig.custom;
+package com.motaharinia.config.oauth2.custom;
 
 import org.springframework.security.oauth2.provider.client.JdbcClientDetailsService;
 import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;

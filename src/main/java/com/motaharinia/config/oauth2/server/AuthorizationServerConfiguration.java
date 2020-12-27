@@ -1,7 +1,7 @@
-package com.motaharinia.oauthsecurityconfig.server;
+package com.motaharinia.config.oauth2.server;
 
-import com.motaharinia.oauthsecurityconfig.custom.CustomWebResponseExceptionTranslator;
-import com.motaharinia.oauthsecurityconfig.custom.FixIdentifier;
+import com.motaharinia.config.oauth2.custom.CustomWebResponseExceptionTranslator;
+import com.motaharinia.config.oauth2.custom.FixIdentifier;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -43,7 +43,7 @@ public class AuthorizationServerConfiguration implements AuthorizationServerConf
     }
 
 
-    //Spring Security OAuth exposes two endpoints for checking tokens (/oauth/check_token and /oauth/token_key).
+    //Spring Security OAuth exposes two endpoints for checking tokens (/oauth2/check_token and /oauth2/token_key).
     // Those endpoints are not exposed by default (have access "denyAll()").
     //So if you want to verify the tokens with this endpoint you'll have to add this to your authorization servers' config:
     @Override
