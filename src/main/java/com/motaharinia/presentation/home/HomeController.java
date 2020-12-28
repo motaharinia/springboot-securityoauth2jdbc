@@ -1,7 +1,7 @@
 package com.motaharinia.presentation.home;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 
 
-    @RequestMapping("/")
+    @GetMapping("/")
     public String home() {
-        return "Hello Homepage!, Spring boot 2 (The default database pooling technology in Spring Boot 2.0 has been switched from Tomcat Pool to HikariCP) data jpa with oracle";
+        return "Hello Homepage!, SecurityOauth2Jdbc";
     }
 
 
